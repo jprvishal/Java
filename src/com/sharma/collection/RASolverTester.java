@@ -1,8 +1,6 @@
 package com.sharma.collection;
 
 
-import com.sun.istack.internal.NotNull;
-
 public class RASolverTester {
 
     public static void main(String[] args) {
@@ -15,7 +13,7 @@ public class RASolverTester {
         System.out.println("Result is == " + solver.result);
     }
 
-    private static int[] populateArray(@NotNull int[] inputArray) {
+    private static int[] populateArray(int[] inputArray) {
         System.out.println();
         System.out.print("Input Array is {");
         for (int i = 0; i < inputArray.length; i++) {
